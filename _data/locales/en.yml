@@ -11,10 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: Categories
-  tags: Tags
-  archives: Archives
-  hack: Hack
+  history: History
 
 # the text displayed in the search bar & search results
 search:
@@ -35,15 +32,15 @@ copyright:
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: Some rights reserved.
+  brief: "&nbsp;"
   verbose: >-
-    Except where otherwise noted, the blog posts on this site are licensed
+    Except where otherwise noted, the content on this site is licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
 
-meta: There's a special joy in coffee black.
+meta: All ups, downs lefts, and rights reserved.
 
 not_found:
-  statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+  statment: Maybe it will appear if you hit reload a bunch of times real fast.
 
 notification:
   update_found: A new version of content is available.
