@@ -32,7 +32,7 @@ and you're not sure where you should use them?
 
 I think I can answer that with some guidelines:
 
-### Unacceptable uses
+## 🤮 Unacceptable uses
 
 * To indicate "no values" for a multi-valued field or parameter.<br>
   The right way to represent no values is an empty collection (set, list, etc).
@@ -51,7 +51,7 @@ I think I can answer that with some guidelines:
   Please don't do this. You can avoid this in any language.
   Just put yourself in the shoes of your consumers.
 
-### Acceptable uses
+## 👍 Acceptable uses
 
 * To indicate "no value" for a single-valued (scalar) field.<br>
   Note: In certain security contexts, "no value" is indistinguishable from
