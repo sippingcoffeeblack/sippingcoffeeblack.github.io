@@ -37,11 +37,11 @@ I think I can answer that with some guidelines:
 * To indicate "no values" for a multi-valued field or parameter.<br>
   The right way to represent no values is an empty collection (set, list, etc).
   I will die on this hill.
-* To act as a placeholder for a field you think might be present someday.<br>
-  If the field might be present someday, add it when the time comes.
-  Don't burden your consumers with fields that are of zero use to them now.
+* To act as a placeholder for a field you think might have a value someday.<br>
+  Don't burden your consumers with things that can't possibly benefit anyone.
+  It will just confuse them.
 * To convey that a field value could not be retrieved due to a system error.<br>
-  If a system error occurs, throw an exception if you language allows it.
+  If a system error occurs, throw an exception if your language allows it.
   If your language does not have such things, it might have an idiom
   that includes returning a wrapper object or a pair of values from functions
   that can result in an error. If one of those values in the idiom is nullable,
